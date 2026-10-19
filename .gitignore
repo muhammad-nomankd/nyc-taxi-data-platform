@@ -1,0 +1,16 @@
+# Environments and secrets
+.venv/
+.env
+*.json
+
+# Data
+data/
+
+# Python and tools caches
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# dbt output
+target/
+dbt_packages/
